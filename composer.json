@@ -1,0 +1,34 @@
+{
+  "name": "smoren/yii2-helpers",
+  "description": "Some Yii2 helpers for different things",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "extension", "helper"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Smoren",
+      "email": "ofigate@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "yiisoft/yii2": "~2.0.0",
+    "smoren/extended-exceptions": "1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smoren\\Yii2\\Helpers\\": "src"
+    }
+  },
+  "config": {
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
