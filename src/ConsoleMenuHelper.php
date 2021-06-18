@@ -13,7 +13,7 @@ use yii\helpers\FileHelper;
 /**
  * Контроллер консольного меню
  */
-class MenuHelper
+class ConsoleMenuHelper
 {
     /**
      * Запуск меню
